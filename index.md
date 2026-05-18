@@ -12,8 +12,6 @@ Colorado State University Student
 [![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camilleeguillen)
 [![Email](https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camille.guillen@colostate.edu)
 
-</div>
-
 ---
 
 ## About Me
