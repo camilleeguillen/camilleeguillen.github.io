@@ -24,11 +24,11 @@ Created a GIS suitability analysis for potato production in Rio Grande County, C
 
 #### Project Links
 
-- 🌎 [Full Project Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp)
+[- 🌎 Full Project Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp)
 
-- 🗺️ [3D Final Analysis Layout](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
+[- 🗺️ 3D Final Analysis Layout](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
 
-- 📄 [Final Analysis Layout](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf)
+ [ - 📄 Final Analysis Layout](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf)
 
 ---
 
@@ -46,8 +46,7 @@ Created a GIS suitability analysis for potato production in Rio Grande County, C
 ---
 
 ## Resume
-
-📄 [Download My Resume](https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf)
+ [📄 Download My Resume](https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf)
 
 ---
 
