@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -16,7 +15,7 @@ body{
     margin:0;
     font-family:Arial, sans-serif;
     background:#f4f4f4;
-    color:#222;
+    color:#d3d3d3;
     line-height:1.6;
 }
 
