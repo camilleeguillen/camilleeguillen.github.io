@@ -58,11 +58,11 @@ Created a GIS suitability analysis for potato production in Rio Grande County, C
 
 ## Contact
 
-**Email:** camille.guillen@colostate.edu
+[Email](camille.guillen@colostate.edu)
 
-**GitHub:** github.com/camilleeguillen
+[GitHub](github.com/camilleeguillen)
 
-**LinkedIn:** linkedin.com/in/camille-guillen-274518359/
+[LinkedIn](linkedin.com/in/camille-guillen-274518359/)
 
 ---
 
