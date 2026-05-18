@@ -1,11 +1,12 @@
-
+<!DOCTYPE html>
+<html lang="en">
+<head>
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
 <title>Camille Guillen | Portfolio</title>
 
 <style>
-
 *{
     box-sizing:border-box;
 }
@@ -14,13 +15,13 @@ body{
     margin:0;
     font-family:Arial, sans-serif;
     background:#f4f4f4;
-    color:#9EECFF;
+    color:#222;
     line-height:1.6;
 }
 
 header{
     background:#9EECFF;
-    color:white;
+    color:#0f172a;
     text-align:center;
     padding:80px 20px;
 }
@@ -28,6 +29,13 @@ header{
 header h1{
     margin:0;
     font-size:48px;
+}
+
+header img{
+    margin-top:20px;
+    border-radius:20px;
+    object-fit:cover;
+    box-shadow:0 4px 12px rgba(0,0,0,0.2);
 }
 
 header p{
@@ -59,6 +67,7 @@ h2{
 .button{
     display:inline-block;
     margin-top:12px;
+    margin-right:10px;
     padding:12px 20px;
     background:#2563eb;
     color:white;
@@ -69,6 +78,7 @@ h2{
 
 .button:hover{
     background:#1d4ed8;
+    text-decoration:none;
 }
 
 a{
@@ -87,126 +97,127 @@ footer{
     padding:20px;
     margin-top:40px;
 }
-
 </style>
 </head>
 
 <body>
 
 <header>
+    <h1>Camille Guillen</h1>
 
-<h1>Camille Guillen</h1>
-<img width="200" height="300" alt="CGuillen Portrait" src="https://github.com/user-attachments/assets/ea4ddf07-57c1-4974-98b8-8ae24deb24f4" />
+    <img 
+    width="200" 
+    height="300" 
+    alt="CGuillen Portrait" 
+    src="https://github.com/user-attachments/assets/ea4ddf07-57c1-4974-98b8-8ae24deb24f4" 
+    />
 
-<p>
-Colorado State University Student <br>
-Agricultural Economics • GIS 
-</p>
-
+    <p>
+    Colorado State University Student <br>
+    Agricultural Economics • GIS
+    </p>
 </header>
 
 <section>
+    <h2>About Me</h2>
 
-<h2>About Me</h2>
-
-<p>
-I am a Colorado State University student with interests in GIS,
-environmental data science, sustainability, agriculture, and research.
-I enjoy combining data analysis, mapping, and problem solving to better
-understand environmental and agricultural systems.
-</p>
-
+    <p>
+    I am a Colorado State University student with interests in GIS,
+    environmental data science, sustainability, agriculture, and research.
+    I enjoy combining data analysis, mapping, and problem solving to better
+    understand environmental and agricultural systems.
+    </p>
 </section>
 
 <section>
+    <h2>Projects</h2>
 
-<h2>Projects</h2>
+    <div class="project">
+        <h3>Colorado Potato Suitability GIS Project</h3>
 
-<div class="project">
+        <p>
+        Created a GIS suitability analysis for potato production in
+        Rio Grande County, Colorado using elevation, slope,
+        land cover, and transportation data.
+        </p>
 
-<h3>Colorado Potato Suitability GIS Project</h3>
+        <a 
+        class="button" 
+        href="https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp" 
+        target="_blank">
+        View Full Project Report
+        </a>
 
-<p>
-Created a GIS suitability analysis for potato production in
-Rio Grande County, Colorado using elevation, slope,
-land cover, and transportation data.
-</p>
+        <a 
+        class="button" 
+        href="https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf" 
+        target="_blank">
+        View 3D Layout
+        </a>
 
-
->
-[View Full Project Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp)
-
-[View 3D Final Analysis Layout.pdf](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
-
-[View Final Analysis Layout .pdf](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf)
-
-</div>
-
-<div class="project">
-
-<section>
-
-<h2>Skills</h2>
-
-<p>
-ArcGIS Pro, GIS Analysis, Remote Sensing, Excel,
-Data Visualization, Research Writing,
-Environmental Analysis, Presentation Design,
-Agricultural Economics
-</p>
-
+        <a 
+        class="button" 
+        href="https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf" 
+        target="_blank">
+        View Final Layout
+        </a>
+    </div>
 </section>
 
 <section>
+    <h2>Skills</h2>
 
-<h2>Resume</h2>
-
-<p>
-Download my resume below.
-</p>
-
-[Camille Guillen Resume](https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf)
-
-</a>
-
+    <p>
+    ArcGIS Pro, GIS Analysis, Remote Sensing, Excel,
+    Data Visualization, Research Writing,
+    Environmental Analysis, Presentation Design,
+    Agricultural Economics
+    </p>
 </section>
 
 <section>
+    <h2>Resume</h2>
 
-<h2>Contact</h2>
+    <p>
+    Download my resume below.
+    </p>
 
-<p>
-Email:
-<a href="mailto:camille.guillen@colostate.edu">
-camille.guillen@colostate.edu
-</a>
-</p>
+    <a 
+    class="button" 
+    href="https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf" 
+    target="_blank">
+    Download Resume
+    </a>
+</section>
 
-<p>
-GitHub:
-<a href="https://github.com/camilleeguillen" target="_blank">
-github.com/camilleeguillen
-</a>
-</p>
+<section>
+    <h2>Contact</h2>
 
-<p>
-LinkedIn:
-<a href="
-www.linkedin.com/in/camille-guillen-274518359/" target="_blank">
-LinkedIn Profile
-</a>
-</p>
+    <p>
+    Email:
+    <a href="mailto:camille.guillen@colostate.edu">
+    camille.guillen@colostate.edu
+    </a>
+    </p>
 
+    <p>
+    GitHub:
+    <a href="https://github.com/camilleeguillen" target="_blank">
+    github.com/camilleeguillen
+    </a>
+    </p>
+
+    <p>
+    LinkedIn:
+    <a href="https://www.linkedin.com/in/camille-guillen-274518359/" target="_blank">
+    LinkedIn Profile
+    </a>
+    </p>
 </section>
 
 <footer>
-
-<p>
-© 2026 Camille Guillen
-</p>
-
+    <p>© 2026 Camille Guillen</p>
 </footer>
 
 </body>
-</html>
 </html>
