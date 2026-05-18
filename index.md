@@ -1,5 +1,3 @@
-# Camille Guillen
-
 <p align="center">
   <img src="https://github.com/user-attachments/assets/ea4ddf07-57c1-4974-98b8-8ae24deb24f4" width="220" style="border-radius:20px;">
 </p>
