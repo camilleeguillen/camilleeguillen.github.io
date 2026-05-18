@@ -1,5 +1,4 @@
-<html lang="en">
-<head>
+
 <meta charset="UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -15,12 +14,12 @@ body{
     margin:0;
     font-family:Arial, sans-serif;
     background:#f4f4f4;
-    color:#d3d3d3;
+    color:#9EECFF;
     line-height:1.6;
 }
 
 header{
-    background:#0f172a;
+    background:#9EECFF;
     color:white;
     text-align:center;
     padding:80px 20px;
