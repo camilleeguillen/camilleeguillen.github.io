@@ -1,6 +1,7 @@
 <div align="center">
 
 # Camille E. Guillen
+
 <img width="300" height="460" alt="CGuillen Portrait" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
 
 ### Agricultural Economics • GIS  
