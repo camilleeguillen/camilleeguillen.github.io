@@ -1,6 +1,7 @@
 <div align="center">
 
 # Camille E. Guillen
+<img width="300" height="460" alt="CGuillen Portrait" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
 
 ### Agricultural Economics • GIS  
 Colorado State University Student
@@ -32,6 +33,10 @@ Created a GIS suitability analysis for potato production in Rio Grande County, C
 - Land Cover
 - Transportation Data
 - Raster Analysis
+
+<img width="492" height="412" alt="Final Analysis Layout " src="https://github.com/user-attachments/assets/79a2fa20-155c-4ca5-ba63-29846eafcf83" />
+
+<img width="492" height="412" alt="3D Final Analysis Layout" src="https://github.com/user-attachments/assets/74fbc426-b769-432f-b2fe-ab48b03250a4" />
 
 #### Project Links
 
