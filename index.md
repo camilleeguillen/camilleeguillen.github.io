@@ -1,5 +1,3 @@
-<div align="center">
-
 # Camille E. Guillen
 
 <img width="300" height="460" alt="CGuillen Portrait" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
@@ -7,7 +5,6 @@
 ### Agricultural Economics • GIS  
 Colorado State University Student
 
-<br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/camille-guillen-274518359/)
 [![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camilleeguillen)
