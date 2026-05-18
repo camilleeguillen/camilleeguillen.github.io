@@ -14,7 +14,6 @@ Colorado State University Student
 [![Email](https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camille.guillen@colostate.edu)
 
 </div>
-
 ---
 
 ## About Me
