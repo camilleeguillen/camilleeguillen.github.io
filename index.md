@@ -66,9 +66,4 @@ Created a GIS suitability analysis for potato production in Rio Grande County, C
 
 ---
 
-<div align="center">
-
 Thanks for visiting my portfolio.
-
-</div>
-
