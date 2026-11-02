@@ -73,11 +73,19 @@ section{padding:96px 0}
 .meta{font-family:var(--display);color:var(--ink-soft);font-size:1rem;margin-bottom:12px}
 .research h3{font-size:clamp(1.8rem,3.6vw,2.6rem);max-width:22ch;margin-bottom:24px}
 .question{font-size:1.2rem;font-style:italic;border-left:4px solid var(--wheat);padding-left:18px;margin:0 0 28px;max-width:60ch}
-.feature{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.1fr);gap:56px;align-items:start;margin-top:40px}
-@media (max-width:900px){.feature{grid-template-columns:1fr}}
+.feature{display:grid;grid-template-columns:250px minmax(0,1fr);gap:48px;align-items:start;margin-top:40px}
+.feature .compare-box{position:sticky;top:80px}
+@media (max-width:900px){.feature{grid-template-columns:1fr}.feature .compare-box{position:static;max-width:340px}}
+.viewer{margin:8px 0 36px}
+.tabs{display:flex;flex-wrap:wrap;gap:6px;border-bottom:1px solid var(--line);margin-bottom:16px}
+.tabs button{font-family:var(--display);font-size:.95rem;border:0;background:transparent;padding:10px 14px;cursor:pointer;color:var(--ink-soft);border-bottom:3px solid transparent;margin-bottom:-1px}
+.tabs button[aria-selected=true]{color:var(--spruce-deep);border-bottom-color:var(--wheat);font-weight:600}
+.fig{display:block;width:100%;padding:0;border:1px solid var(--line);border-radius:14px;overflow:hidden;background:var(--mist);cursor:zoom-in}
+.fig img{width:100%;aspect-ratio:16/9;object-fit:contain;background:#fff}
+.fig-cap{font-size:.95rem;color:var(--ink-soft);margin:12px 0 0}
 
 .compare-box{background:var(--mist);border:1px solid var(--line);border-radius:18px;padding:20px}
-.compare{position:relative;width:min(300px,100%);margin:0 auto;aspect-ratio:258/1060;max-height:640px;border-radius:10px;overflow:hidden;user-select:none;touch-action:none}
+.compare{position:relative;width:100%;margin:0 auto;aspect-ratio:258/1060;max-height:640px;border-radius:10px;overflow:hidden;user-select:none;touch-action:none}
 .compare img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .compare .top{clip-path:inset(0 calc(100% - var(--pos,50%)) 0 0)}
 .compare .handle{position:absolute;top:0;bottom:0;left:var(--pos,50%);width:3px;margin-left:-1.5px;background:#fff;box-shadow:0 0 0 1px rgba(0,0,0,.25);pointer-events:none}
@@ -89,12 +97,13 @@ section{padding:96px 0}
 .legend{display:flex;flex-wrap:wrap;gap:6px 16px;justify-content:center;font-family:var(--display);font-size:.85rem;color:var(--ink-soft);margin-top:10px}
 .legend i{display:inline-block;width:12px;height:12px;border-radius:3px;margin-right:6px;vertical-align:-1px}
 
-.stats{display:grid;gap:14px;margin:8px 0 32px}
-.stat{display:grid;grid-template-columns:120px 1fr;gap:18px;align-items:center;padding:16px 0;border-bottom:1px solid var(--line)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;margin:0 0 32px}
+@media (max-width:560px){.stats{grid-template-columns:1fr}}
+.stat{display:flex;flex-direction:column;gap:8px;padding:0 0 14px;border-bottom:3px solid var(--line)}
 .stat b{font-family:var(--display);font-size:3rem;font-weight:800;line-height:1;color:var(--spruce)}
 .stat:nth-child(2) b{color:var(--fire)}
 .stat:nth-child(3) b{color:var(--river)}
-.stat span{font-size:1.02rem}
+.stat span{font-size:.95rem;line-height:1.5}
 
 .cause h4{font-family:var(--display);font-size:1.15rem;margin:0 0 4px}
 .cause p{font-size:.95rem;color:var(--ink-soft);margin-bottom:12px}
@@ -210,7 +219,7 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
     </div>
     <figure class="portrait" style="margin:0">
       <img src="img/portrait.jpeg" alt="Portrait of Camille Guillen">
-      <figcaption class="coords">Fort Collins, CO &nbsp;40.57° N, 105.08° W</figcaption>
+      <figcaption class="coords">Red Rocks, Colorado &nbsp;39.67° N, 105.21° W</figcaption>
     </figure>
   </div>
   <span class="hint">Move your cursor over the map</span>
@@ -226,7 +235,7 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
     <p>Working on a team with Xinran Zhou and Malia Goldstien, mentored by Dr. Sandra Durán and Dr. Mohammad Saif, I compared NLCD land cover from 2001 and 2021 with elevation, Landsat imagery, and MODIS burn data. We processed and analyzed everything in Python and GIS.</p>
 
     <div class="feature">
-      <div class="compare-box">
+      <aside class="compare-box">
         <div class="compare" id="compare" style="--pos:50%">
           <img src="img/front-range-2021.png" alt="Front Range land cover in 2021">
           <img class="top" src="img/front-range-2001.png" alt="Front Range land cover in 2001">
@@ -238,17 +247,30 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
         <div class="legend">
           <span><i style="background:#1E6B30"></i>Forest</span>
           <span><i style="background:#E8243B"></i>Developed</span>
-          <span><i style="background:#D9C28F"></i>Grassland &amp; shrub</span>
+          <span><i style="background:#D9C28F"></i>Grassland</span>
           <span><i style="background:#A6702A"></i>Farmland</span>
         </div>
-      </div>
+      </aside>
 
-      <div>
+      <div class="feature-main">
         <div class="stats">
-          <div class="stat"><b>19%</b><span>Forest cover on the Front Range declined by about a fifth, mostly in evergreen forest.</span></div>
-          <div class="stat"><b>85%</b><span>About 85% of forest loss overlapped with wildfire burn areas.</span></div>
-          <div class="stat"><b>7%</b><span>Only about 7% of lost forest was converted directly to urban land.</span></div>
+          <div class="stat"><b>19%</b><span>Forest cover on the Front Range declined, mostly in evergreen forest.</span></div>
+          <div class="stat"><b>85%</b><span>of forest loss overlapped with wildfire burn areas.</span></div>
+          <div class="stat"><b>7%</b><span>of lost forest was converted directly to urban land.</span></div>
         </div>
+
+        <div class="viewer">
+          <div class="tabs" role="tablist" aria-label="Project figures">
+            <button role="tab" aria-selected="true" data-i="0">Land cover maps</button>
+            <button role="tab" aria-selected="false" data-i="1">Forest lost and gained</button>
+            <button role="tab" aria-selected="false" data-i="2">Loss by cause</button>
+          </div>
+          <button class="fig" id="figBtn" data-src="img/esiil-land-cover-maps.png" data-cap="Land cover in 2001 and 2021, where it changed, and elevation">
+            <img id="figImg" src="img/esiil-land-cover-maps.png" alt="Land cover in 2001 and 2021, where it changed, and elevation">
+          </button>
+          <p class="fig-cap" id="figCap" aria-live="polite">NLCD land cover in 2001 and 2021, every area that changed (in red), and elevation across the study area. Select the image to enlarge it.</p>
+        </div>
+
         <div class="cause">
           <h4>What caused the forest loss?</h4>
           <p>398 km² of forest was lost in total. Select a part of the bar.</p>
@@ -260,12 +282,6 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
           <div class="cause-out" id="causeOut" aria-live="polite"></div>
         </div>
       </div>
-    </div>
-
-    <div class="thumbs">
-      <button data-src="img/esiil-land-cover-maps.png" data-cap="Land cover in 2001 and 2021, where it changed, and elevation"><img src="img/esiil-land-cover-maps.png" alt="" loading="lazy"><span>Land cover, change, and elevation</span></button>
-      <button data-src="img/esiil-forest-change-map.png" data-cap="Where forest was lost and gained, 2001–2021"><img src="img/esiil-forest-change-map.png" alt="" loading="lazy"><span>Forest lost and gained</span></button>
-      <button data-src="img/esiil-forest-loss-by-cause.png" data-cap="Forest loss by cause, 2001–2021"><img src="img/esiil-forest-loss-by-cause.png" alt="" loading="lazy"><span>Forest loss by cause</span></button>
     </div>
   </div>
 </section>
@@ -470,6 +486,14 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
   bs.forEach(b=>b.addEventListener('click',()=>{bs.forEach(x=>x.setAttribute('aria-pressed',x===b));img.src=b.dataset.img;btn.dataset.src=b.dataset.img;note.textContent=b.dataset.note}));
 })();
 
+/* figure tabs */
+(function(){
+  const F=[["img/esiil-land-cover-maps.png","Land cover in 2001 and 2021, where it changed, and elevation","NLCD land cover in 2001 and 2021, every area that changed (in red), and elevation across the study area. Select the image to enlarge it."],
+           ["img/esiil-forest-change-map.png","Where forest was lost and gained, 2001–2021","Where deciduous, evergreen, and mixed forest stayed the same, was lost (red), or was gained (blue) between 2001 and 2021."],
+           ["img/esiil-forest-loss-by-cause.png","Forest loss by cause, 2001–2021","Forest loss split by cause: fire accounted for most of the 398 km² lost, with urban growth and other causes far behind."]];
+  const tabs=document.querySelectorAll('.tabs button'),img=document.getElementById('figImg'),btn=document.getElementById('figBtn'),cap=document.getElementById('figCap');
+  tabs.forEach(t=>t.addEventListener('click',()=>{const f=F[t.dataset.i];tabs.forEach(x=>x.setAttribute('aria-selected',x===t));img.src=f[0];img.alt=f[1];btn.dataset.src=f[0];btn.dataset.cap=f[1];cap.textContent=f[2]}));
+})();
 /* lightbox */
 (function(){
   const d=document.getElementById('lb'),img=document.getElementById('lbImg'),cap=document.getElementById('lbCap');
