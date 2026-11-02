@@ -1,69 +1,65 @@
-<img width="300" height="460" alt="CGuillen Portrait" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
+<div align="center">
 
-### Agricultural Economics • GIS  
+<img width="220" alt="Camille Guillen" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
 
-Colorado State University Student
+# Camille Guillen
+
+### Agricultural Economics • GIS • Environmental Data
+
+Student at Colorado State University
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/camille-guillen-274518359/)
-
-[![GitHub](https://img.shields.io/badge/GitHub-111111?style=for-the-badge&logo=github&logoColor=white)](https://github.com/camilleeguillen)
-
 [![Email](https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camille.guillen@colostate.edu)
+[![Resume](https://img.shields.io/badge/Resume-111111?style=for-the-badge&logo=readdotcv&logoColor=white)](https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf)
+
+</div>
 
 ---
 
 ## About Me
 
-I am a Colorado State University student interested in GIS, environmental data science, sustainability, agriculture, and research. I enjoy combining mapping, environmental analysis, and data-driven problem solving to better understand agricultural and environmental systems.
+I'm a Colorado State University student working at the intersection of **GIS, agriculture, and environmental data science**. I use mapping, spatial analysis, and data to understand agricultural and environmental systems and to support better decisions about land use and sustainability.
 
----
-
-## Projects
-
-### Colorado Potato Suitability GIS Project
-
-Created a GIS suitability analysis for potato production in Rio Grande County, Colorado using:
-
-- Elevation
-- Slope
-- Land Cover
-- Transportation Data
-- Raster Analysis
-
-<img width="492" height="412" alt="Final Analysis Layout " src="https://github.com/user-attachments/assets/79a2fa20-155c-4ca5-ba63-29846eafcf83" />
-
-<img width="492" height="412" alt="3D Final Analysis Layout" src="https://github.com/user-attachments/assets/74fbc426-b769-432f-b2fe-ab48b03250a4" />
-
-#### Project Links
-
-- [Full Project Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp)
-
-- [3D Analysis Layout PDF](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
-
-- [Final Analysis Layout PDF](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf)
+**Currently interested in:** GIS analysis • remote sensing • sustainable agriculture • research
 
 ---
 
 ## Skills
 
-`ArcGIS Pro` • `GIS Analysis` • `Remote Sensing` • `Excel` • `Data Visualization` • `Research Writing` • `Environmental Analysis` • `Presentation Design`
+| Area | Tools & Skills |
+|---|---|
+| **GIS & Mapping** | ArcGIS Pro, GIS Analysis, Raster Analysis, Remote Sensing |
+| **Data** | Excel, Data Visualization, Environmental Analysis |
+| **Communication** | Research Writing, Presentation Design |
 
 ---
 
-## Resume
+## Projects
 
-[Download Resume](https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf)
+### 🥔 Colorado Potato Suitability Analysis
+
+**Tools:** ArcGIS Pro • Raster Analysis • Weighted Overlay
+
+Identified the most suitable land for potato production in Rio Grande County, Colorado, by combining elevation, slope, land cover, and distance to transportation into a suitability model.
+
+<table>
+  <tr>
+    <td><img width="400" alt="Final Analysis Layout" src="https://github.com/user-attachments/assets/79a2fa20-155c-4ca5-ba63-29846eafcf83" /></td>
+    <td><img width="400" alt="3D Final Analysis Layout" src="https://github.com/user-attachments/assets/74fbc426-b769-432f-b2fe-ab48b03250a4" /></td>
+  </tr>
+  <tr>
+    <td align="center"><i>Suitability map</i></td>
+    <td align="center"><i>3D view</i></td>
+  </tr>
+</table>
+
+📄 [Full Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp) • 🗺️ [Map Layout (PDF)](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf) • 🏔️ [3D Layout (PDF)](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
 
 ---
 
 ## Contact
 
-[Email](camille.guillen@colostate.edu)
+📧 [camille.guillen@colostate.edu](mailto:camille.guillen@colostate.edu)
+💼 [LinkedIn](https://www.linkedin.com/in/camille-guillen-274518359/)
 
-[GitHub](github.com/camilleeguillen)
-
-[LinkedIn](linkedin.com/in/camille-guillen-274518359/)
-
----
-
-Thanks for visiting my portfolio.
+<div align="center"><sub>Thanks for visiting!</sub></div>
