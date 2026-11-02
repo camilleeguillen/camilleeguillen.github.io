@@ -81,6 +81,27 @@ I manage weekly price data from farmers markets across Colorado, including Bould
 
 ---
 
+### 🥔 Colorado Potato Suitability Analysis
+
+**Tools:** ArcGIS Pro • Raster Analysis • Weighted Overlay
+
+Identified the most suitable land for potato production in Rio Grande County, Colorado, by combining elevation, slope, land cover, and distance to transportation into a suitability model.
+
+<table>
+  <tr>
+    <td><img width="400" alt="Final Analysis Layout" src="https://github.com/user-attachments/assets/79a2fa20-155c-4ca5-ba63-29846eafcf83" /></td>
+    <td><img width="400" alt="3D Final Analysis Layout" src="https://github.com/user-attachments/assets/74fbc426-b769-432f-b2fe-ab48b03250a4" /></td>
+  </tr>
+  <tr>
+    <td align="center"><i>Suitability map</i></td>
+    <td align="center"><i>3D view</i></td>
+  </tr>
+</table>
+
+📄 [Full Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp) • 🗺️ [Map Layout (PDF)](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf) • 🏔️ [3D Layout (PDF)](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
+
+---
+
 ### 🚗 Traffic and Water Pollution in Southern California
 
 **Equitable Agriculture and Environmental Management Program • Santa Barbara • July 2025**
@@ -104,27 +125,6 @@ In a two-week intensive program, my team tested whether Southern California cens
     <td align="center"><i>With the San Diego outlier</i></td>
   </tr>
 </table>
-
----
-
-### 🥔 Colorado Potato Suitability Analysis
-
-**Tools:** ArcGIS Pro • Raster Analysis • Weighted Overlay
-
-Identified the most suitable land for potato production in Rio Grande County, Colorado, by combining elevation, slope, land cover, and distance to transportation into a suitability model.
-
-<table>
-  <tr>
-    <td><img width="400" alt="Final Analysis Layout" src="https://github.com/user-attachments/assets/79a2fa20-155c-4ca5-ba63-29846eafcf83" /></td>
-    <td><img width="400" alt="3D Final Analysis Layout" src="https://github.com/user-attachments/assets/74fbc426-b769-432f-b2fe-ab48b03250a4" /></td>
-  </tr>
-  <tr>
-    <td align="center"><i>Suitability map</i></td>
-    <td align="center"><i>3D view</i></td>
-  </tr>
-</table>
-
-📄 [Full Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp) • 🗺️ [Map Layout (PDF)](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf) • 🏔️ [3D Layout (PDF)](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
 
 ---
 
