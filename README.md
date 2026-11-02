@@ -56,12 +56,14 @@ As part of a team in the competitive ESIIL Stars Internship, I compared 2001 and
 
 🎤 **This research will be presented at the AGU Fall Meeting in December 2026.**
 
-<img width="800" alt="NLCD land cover in 2001 and 2021, land cover change, and elevation along the Front Range" src="esiil-land-cover-maps.png" />
+💻 [Project Code on GitHub](https://github.com/camilleeguillen/camille-front-range-forest-change)
+
+<img width="800" alt="NLCD land cover in 2001 and 2021, land cover change, and elevation along the Front Range" src="img/esiil-land-cover-maps.png" />
 
 <table>
   <tr>
-    <td><img width="400" alt="Forest change map 2001-2021" src="esiil-forest-change-map.png" /></td>
-    <td><img width="400" alt="Forest loss by cause chart" src="esiil-forest-loss-by-cause.png" /></td>
+    <td><img width="400" alt="Forest change map 2001-2021" src="img/esiil-forest-change-map.png" /></td>
+    <td><img width="400" alt="Forest loss by cause chart" src="img/esiil-forest-loss-by-cause.png" /></td>
   </tr>
   <tr>
     <td align="center"><i>Where forest was lost and gained</i></td>
@@ -81,9 +83,9 @@ I manage weekly price data from farmers markets across Colorado, including Bould
 
 **Why it matters:** Local farmers use these reports to compare prices across markets and set fair prices for their farm stands and CSA shares.
 
-<img width="500" alt="South Pearl Street Farmers Market price report" src="farmers-market-report.png" />
+<img width="500" alt="South Pearl Street Farmers Market price report" src="img/farmers-market-report.png" />
 
-📄 [Sample Report: South Pearl Street Farmers Market, Oct 18, 2026 (PDF)](South-Pearl-Market-Report-10-18-2026.pdf)
+📄 [Sample Report: South Pearl Street Farmers Market, Oct 18, 2026 (PDF)](img/South-Pearl-Market-Report-10-18-2026.pdf)
 
 ---
 
