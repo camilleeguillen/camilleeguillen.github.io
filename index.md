@@ -22,8 +22,6 @@ I'm a Colorado State University student majoring in **Agricultural Economics** w
 
 **Currently interested in:** GIS analysis • remote sensing • land cover change • sustainable agriculture
 
-📢 **Upcoming:** Presenting my ESIIL Stars research at the **AGU Fall Meeting** in December 2026.
-
 ---
 
 ## Skills
