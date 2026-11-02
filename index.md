@@ -4,7 +4,7 @@
 
 # Camille Guillen
 
-### Agricultural Economics • GIS • Environmental Data
+### Agricultural Economics • GIS • Environmental Data Science
 
 Student at Colorado State University
 
@@ -18,9 +18,11 @@ Student at Colorado State University
 
 ## About Me
 
-I'm a Colorado State University student working at the intersection of **GIS, agriculture, and environmental data science**. I use mapping, spatial analysis, and data to understand agricultural and environmental systems and to support better decisions about land use and sustainability.
+I'm a Colorado State University student majoring in **Agricultural Economics** with a minor in **GIS for Natural Resources**. I use mapping, satellite imagery, and data analysis to understand agricultural and environmental systems and to support better decisions about land use and sustainability.
 
-**Currently interested in:** GIS analysis • remote sensing • sustainable agriculture • research
+**Currently interested in:** GIS analysis • remote sensing • land cover change • sustainable agriculture
+
+📢 **Upcoming:** Presenting my ESIIL Stars research at the **AGU Fall Meeting** in December 2026.
 
 ---
 
@@ -28,13 +30,62 @@ I'm a Colorado State University student working at the intersection of **GIS, ag
 
 | Area | Tools & Skills |
 |---|---|
-| **GIS & Mapping** | ArcGIS Pro, GIS Analysis, Raster Analysis, Remote Sensing |
-| **Data** | Excel, Data Visualization, Environmental Analysis |
-| **Communication** | Research Writing, Presentation Design |
+| **Programming** | Python, R |
+| **GIS & Remote Sensing** | ArcGIS Pro, Landsat imagery, NLCD land cover data, Raster Analysis |
+| **Data** | Excel, Data Visualization, Statistical Analysis |
+| **Communication** | Research Writing, Scientific Presentations |
 
 ---
 
 ## Projects
+
+### 🌲 Forest Loss & Urban Growth Along Colorado's Front Range
+
+**ESIIL Stars Internship • Environmental Data Science Innovation & Impact Lab (NSF-supported) • Summer 2026**
+
+**Tools:** Python • GIS • Landsat • NLCD Land Cover • MODIS Burn Data
+
+**Research question:** How has forest cover changed along the Front Range's elevation gradient over 20 years, and how much of that change is linked to urbanization?
+
+As part of a team in the competitive ESIIL Stars Internship, I compared 2001 and 2021 NLCD land cover data with a digital elevation model, Landsat imagery, and MODIS burn data to see where forests, grasslands, farmland, and urban areas changed. We processed and analyzed the data in Python and GIS under the guidance of Dr. Sandra Durán and Dr. Mohammad Saif.
+
+**What we found:**
+- 🌲 Forest cover on the Front Range **declined about 19%** between 2001 and 2021, with most loss in evergreen forest.
+- 🔥 About **85% of forest loss overlapped with wildfire burn areas**. Only about **7% was converted directly to urban land**.
+- 🏘️ Grassland and urban cover expanded, and forest loss was slightly more common at lower elevations.
+
+🎤 **This research will be presented at the AGU Fall Meeting in December 2026.**
+
+<img width="800" alt="NLCD land cover in 2001 and 2021, land cover change, and elevation along the Front Range" src="esiil-land-cover-maps.png" />
+
+<table>
+  <tr>
+    <td><img width="400" alt="Forest change map 2001-2021" src="esiil-forest-change-map.png" /></td>
+    <td><img width="400" alt="Forest loss by cause chart" src="esiil-forest-loss-by-cause.png" /></td>
+  </tr>
+  <tr>
+    <td align="center"><i>Where forest was lost and gained</i></td>
+    <td align="center"><i>Forest loss by cause: fire, urban, other</i></td>
+  </tr>
+</table>
+
+---
+
+### 🥕 Colorado Farmers Market Price Reports
+
+**CSU Extension • CSU Food Systems • June 2026–Present**
+
+**Tools:** R • Excel • Data Reporting
+
+I manage weekly price data from farmers markets across Colorado, including Boulder, Fort Collins, Montrose, Palisade, and Pueblo, tracking prices for fruit, vegetables, meat, and eggs. Using R, I calculate the lowest, highest, and average price for each product and compile 5–10 reports each week that are published on the CSU Extension website.
+
+**Why it matters:** Local farmers use these reports to compare prices across markets and set fair prices for their farm stands and CSA shares.
+
+<img width="500" alt="South Pearl Street Farmers Market price report" src="farmers-market-report.png" />
+
+📄 [Sample Report: South Pearl Street Farmers Market, Oct 18, 2026 (PDF)](South-Pearl-Market-Report-10-18-2026.pdf)
+
+---
 
 ### 🥔 Colorado Potato Suitability Analysis
 
