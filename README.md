@@ -52,8 +52,6 @@ As part of a team in the competitive ESIIL Stars Internship, I compared 2001 and
 
 🎤 **This research will be presented at the AGU Fall Meeting in December 2026.**
 
-💻 [Project Code on GitHub](https://github.com/camilleeguillen/camille-front-range-forest-change)
-
 <img width="800" alt="NLCD land cover in 2001 and 2021, land cover change, and elevation along the Front Range" src="img/esiil-land-cover-maps.png" />
 
 <table>
