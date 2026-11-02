@@ -522,8 +522,15 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
   const $=n=>'$'+n.toFixed(2);
   const esc=s=>s.replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
   function render(term){
-    term=term.trim().toLowerCase().replace(/s$/,'');
-    const m=term?P.filter(p=>p[0].toLowerCase().includes(term)):[];
+    term=term.trim().toLowerCase();
+    const base=term.replace(/(es|s)$/,'').replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
+    let m=[];
+    if(term){
+      const whole=new RegExp('\\b'+base+'(e?s)?\\b');
+      m=P.filter(p=>whole.test(p[0].toLowerCase()));
+      if(!m.length){const start=new RegExp('\\b'+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));m=P.filter(p=>start.test(p[0].toLowerCase()))}
+      if(!m.length)m=P.filter(p=>p[0].toLowerCase().includes(base||term));
+    }
     if(!term){ul.innerHTML='<li><span class="empty">Type a product or pick one above to see its price range at the market.</span></li>';return}
     if(!m.length){ul.innerHTML='<li><span class="empty">No match for that product in this report. Try a vegetable, meat, or eggs.</span></li>';return}
     const max=Math.max(...m.map(p=>p[4]))*1.08;
