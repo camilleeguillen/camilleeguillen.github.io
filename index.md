@@ -81,6 +81,32 @@ I manage weekly price data from farmers markets across Colorado, including Bould
 
 ---
 
+### 🚗 Traffic and Water Pollution in Southern California
+
+**Equitable Agriculture and Environmental Management Program • Santa Barbara • July 2025**
+
+**Tools:** R • ggplot2 • Regression & ANOVA • ArcGIS
+
+In a two-week intensive program, my team tested whether Southern California census tracts with more traffic also have more impaired water bodies, since tire wear sheds particles that can wash into streams and lakes. We used CalEnviroScreen 4.0 data for more than 1,600 census tracts.
+
+**What we found:**
+- 🚦 Traffic had a statistically significant but very small effect on water pollution once we controlled for county.
+- 🗺️ Differences between counties explained far more of the variation than traffic did.
+- 📍 A single extreme tract in San Diego made the relationship look much stronger than it really is.
+
+<table>
+  <tr>
+    <td><img width="400" alt="Traffic vs impaired water bodies without San Diego" src="img/eqag-traffic-water-without-san-diego.png" /></td>
+    <td><img width="400" alt="Traffic vs impaired water bodies with San Diego" src="img/eqag-traffic-water-with-san-diego.png" /></td>
+  </tr>
+  <tr>
+    <td align="center"><i>Without the San Diego outlier</i></td>
+    <td align="center"><i>With the San Diego outlier</i></td>
+  </tr>
+</table>
+
+---
+
 ### 🥔 Colorado Potato Suitability Analysis
 
 **Tools:** ArcGIS Pro • Raster Analysis • Weighted Overlay

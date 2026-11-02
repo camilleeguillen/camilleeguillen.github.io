@@ -145,6 +145,12 @@ section{padding:96px 0}
 .maps2 button{padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;cursor:zoom-in;background:#fff;font:inherit}
 .maps2 span{display:block;padding:8px 12px;font-family:var(--display);font-size:.85rem;color:var(--ink-soft);text-align:left}
 
+.toggle{display:inline-flex;background:var(--mist);border:1px solid var(--line);border-radius:999px;padding:4px;margin-bottom:14px;flex-wrap:wrap}
+.toggle button{font-family:var(--display);font-size:.9rem;border:0;background:transparent;padding:7px 14px;border-radius:999px;cursor:pointer;color:var(--ink-soft)}
+.toggle button[aria-pressed=true]{background:var(--spruce);color:#fff}
+.chart-btn{display:block;width:100%;padding:0;border:1px solid var(--line);border-radius:12px;overflow:hidden;background:#fff;cursor:zoom-in}
+.eq-note{font-size:.95rem;margin:12px 0 0}
+
 /* about */
 .about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px}
 @media (max-width:820px){.about-grid{grid-template-columns:1fr}}
@@ -161,6 +167,13 @@ section{padding:96px 0}
 .contact h2{font-size:clamp(2.4rem,6vw,4.2rem);max-width:16ch}
 .contact p{color:#CFE0D3;margin:18px 0 28px}
 footer{background:var(--spruce-deep);color:#90AE9A;font-family:var(--display);font-size:.85rem;padding:0 0 32px}
+
+
+/* outlier toggle */
+(function(){
+  const bs=document.querySelectorAll('.toggle button'),img=document.getElementById('eqImg'),btn=document.getElementById('eqImgBtn'),note=document.getElementById('eqNote');
+  bs.forEach(b=>b.addEventListener('click',()=>{bs.forEach(x=>x.setAttribute('aria-pressed',x===b));img.src=b.dataset.img;btn.dataset.src=b.dataset.img;note.textContent=b.dataset.note}));
+})();
 
 /* lightbox */
 dialog{border:0;padding:0;background:transparent;max-width:min(1100px,94vw);max-height:92vh}
@@ -284,6 +297,26 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
           <button data-q="tomatoes">Tomatoes</button><button data-q="eggs">Eggs</button><button data-q="beef">Beef</button><button data-q="mushrooms">Mushrooms</button><button data-q="honey">Honey</button>
         </div>
         <ul class="results" id="results" aria-live="polite"></ul>
+      </div>
+    </article>
+
+    <article class="proj">
+      <div>
+        <div class="meta">Equitable Agriculture and Environmental Management Program &nbsp;/&nbsp; Santa Barbara &nbsp;/&nbsp; July 2025</div>
+        <h3>Does heavy traffic mean more polluted water?</h3>
+        <p>Tire wear sheds tiny particles that can wash into streams and lakes. In a two-week intensive program, my team tested whether Southern California census tracts with more traffic also have more impaired water bodies, using CalEnviroScreen 4.0 environmental data for more than 1,600 tracts.</p>
+        <p>In R, we ran an ANOVA and a regression that controlled for county. Traffic had a statistically significant but very small effect, while differences between counties explained far more of the variation. We also found that a single extreme tract in San Diego made the relationship look much stronger than it is. We presented policy-focused recommendations to faculty and peers.</p>
+        <ul class="tools"><li>R</li><li>ggplot2</li><li>Regression &amp; ANOVA</li><li>ArcGIS</li></ul>
+      </div>
+      <div class="lookup">
+        <h4>See what one outlier does</h4>
+        <p class="sub">Switch between the two charts and watch the trend line.</p>
+        <div class="toggle" role="group" aria-label="Choose a chart">
+          <button aria-pressed="true" data-img="img/eqag-traffic-water-without-san-diego.png" data-note="Without one extreme San Diego tract, the trend line is nearly flat: traffic barely changes the number of impaired water bodies.">Without the outlier</button>
+          <button aria-pressed="false" data-img="img/eqag-traffic-water-with-san-diego.png" data-note="One San Diego tract with extremely high traffic pulls the line up steeply, which would overstate the relationship.">With the outlier</button>
+        </div>
+        <button class="chart-btn" id="eqImgBtn" data-src="img/eqag-traffic-water-without-san-diego.png" data-cap="Traffic density vs. impaired water bodies by county, Southern California"><img id="eqImg" src="img/eqag-traffic-water-without-san-diego.png" alt="Scatter plot of traffic density against impaired water bodies by county" loading="lazy"></button>
+        <p class="eq-note" id="eqNote" aria-live="polite">Without one extreme San Diego tract, the trend line is nearly flat: traffic barely changes the number of impaired water bodies.</p>
       </div>
     </article>
 
