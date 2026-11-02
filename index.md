@@ -41,7 +41,7 @@ I'm a Colorado State University student majoring in **Agricultural Economics** w
 
 **Research question:** How has forest cover changed along the Front Range's elevation gradient over 20 years, and how much of that change is linked to urbanization?
 
-As part of a team in the competitive ESIIL Stars Internship, I compared 2001 and 2021 NLCD land cover data with a digital elevation model, Landsat imagery, and MODIS burn data to see where forests, grasslands, farmland, and urban areas changed. We processed and analyzed the data in Python and GIS under the guidance of Dr. Sandra Durán and Dr. Mohammad Saif.
+Working with teammates Xinran Zhou and Malia Goldstien in the competitive ESIIL Stars Internship, I compared 2001 and 2021 NLCD land cover data with a digital elevation model, Landsat imagery, and MODIS burn data to see where forests, grasslands, farmland, and urban areas changed. We processed and analyzed the data in Python and GIS under the guidance of Dr. Sandra Durán and Dr. Mohammad Saif.
 
 **What we found:**
 - 🌲 Forest cover on the Front Range **declined about 19%** between 2001 and 2021, with most loss in evergreen forest.
