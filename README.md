@@ -1,48 +1,116 @@
-<div align="center"> <img width="220" alt="Camille Guillen" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
-Camille Guillen
-Agricultural Economics • GIS • Environmental Data
+<div align="center">
+
+<img width="220" alt="Camille Guillen" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
+
+# Camille Guillen
+
+### Agricultural Economics • GIS • Environmental Data Science
 
 Student at Colorado State University
 
-LinkedIn Email Resume
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/camille-guillen-274518359/)
+[![Email](https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camille.guillen@colostate.edu)
+[![Resume](https://img.shields.io/badge/Resume-111111?style=for-the-badge&logo=readdotcv&logoColor=white)](https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf)
 
 </div>
-About Me
 
-I'm a Colorado State University student working at the intersection of GIS, agriculture, and environmental data science. I use mapping, spatial analysis, and data to understand agricultural and environmental systems and to support better decisions about land use and sustainability.
+---
 
-Currently interested in: GIS analysis • remote sensing • sustainable agriculture • research
+## About Me
 
-Skills
-Area	Tools & Skills
-GIS & Mapping	ArcGIS Pro, GIS Analysis, Raster Analysis, Remote Sensing
-Data	Excel, Data Visualization, Environmental Analysis
-Communication	Research Writing, Presentation Design
-Projects
-🥔 Colorado Potato Suitability Analysis
+I'm a Colorado State University student majoring in **Agricultural Economics** with a minor in **GIS for Natural Resources**. I use mapping, satellite imagery, and data analysis to understand agricultural and environmental systems and to support better decisions about land use and sustainability.
 
-Tools: ArcGIS Pro • Raster Analysis • Weighted Overlay
+**Currently interested in:** GIS analysis • remote sensing • land cover change • sustainable agriculture
+
+📢 **Upcoming:** Presenting my ESIIL Stars research at the **AGU Fall Meeting** in December 2026.
+
+---
+
+## Skills
+
+| Area | Tools & Skills |
+|---|---|
+| **Programming** | Python, R |
+| **GIS & Remote Sensing** | ArcGIS Pro, Landsat imagery, NLCD land cover data, Raster Analysis |
+| **Data** | Excel, Data Visualization, Statistical Analysis |
+| **Communication** | Research Writing, Scientific Presentations |
+
+---
+
+## Projects
+
+### 🌲 Forest Loss & Urban Growth Along Colorado's Front Range
+
+**ESIIL Stars Internship • Environmental Data Science Innovation & Impact Lab (NSF-supported) • Summer 2026**
+
+**Tools:** Python • GIS • Landsat • NLCD Land Cover • MODIS Burn Data
+
+**Research question:** How has forest cover changed along the Front Range's elevation gradient over 20 years, and how much of that change is linked to urbanization?
+
+As part of a team in the competitive ESIIL Stars Internship, I compared 2001 and 2021 NLCD land cover data with a digital elevation model, Landsat imagery, and MODIS burn data to see where forests, grasslands, farmland, and urban areas changed. We processed and analyzed the data in Python and GIS under the guidance of Dr. Sandra Durán and Dr. Mohammad Saif.
+
+**What we found:**
+- 🌲 Forest cover on the Front Range **declined about 19%** between 2001 and 2021, with most loss in evergreen forest.
+- 🔥 About **85% of forest loss overlapped with wildfire burn areas**. Only about **7% was converted directly to urban land**.
+- 🏘️ Grassland and urban cover expanded, and forest loss was slightly more common at lower elevations.
+
+🎤 **This research will be presented at the AGU Fall Meeting in December 2026.**
+
+<img width="800" alt="NLCD land cover in 2001 and 2021, land cover change, and elevation along the Front Range" src="esiil-land-cover-maps.png" />
+
+<table>
+  <tr>
+    <td><img width="400" alt="Forest change map 2001-2021" src="esiil-forest-change-map.png" /></td>
+    <td><img width="400" alt="Forest loss by cause chart" src="esiil-forest-loss-by-cause.png" /></td>
+  </tr>
+  <tr>
+    <td align="center"><i>Where forest was lost and gained</i></td>
+    <td align="center"><i>Forest loss by cause: fire, urban, other</i></td>
+  </tr>
+</table>
+
+---
+
+### 🥕 Colorado Farmers Market Price Reports
+
+**CSU Extension • CSU Food Systems • June 2026–Present**
+
+**Tools:** R • Excel • Data Reporting
+
+I manage weekly price data from farmers markets across Colorado, including Boulder, Fort Collins, Montrose, Palisade, and Pueblo, tracking prices for fruit, vegetables, meat, and eggs. Using R, I calculate the lowest, highest, and average price for each product and compile 5–10 reports each week that are published on the CSU Extension website.
+
+**Why it matters:** Local farmers use these reports to compare prices across markets and set fair prices for their farm stands and CSA shares.
+
+<img width="500" alt="South Pearl Street Farmers Market price report" src="farmers-market-report.png" />
+
+📄 [Sample Report: South Pearl Street Farmers Market, Oct 18, 2026 (PDF)](South-Pearl-Market-Report-10-18-2026.pdf)
+
+---
+
+### 🥔 Colorado Potato Suitability Analysis
+
+**Tools:** ArcGIS Pro • Raster Analysis • Weighted Overlay
 
 Identified the most suitable land for potato production in Rio Grande County, Colorado, by combining elevation, slope, land cover, and distance to transportation into a suitability model.
 
-<!-- TODO: add 1 sentence on your main finding, e.g. "Most highly suitable land was found in ___, covering about ___ acres." --> <table> <tr> <td><img width="400" alt="Final Analysis Layout" src="https://github.com/user-attachments/assets/79a2fa20-155c-4ca5-ba63-29846eafcf83" /></td> <td><img width="400" alt="3D Final Analysis Layout" src="https://github.com/user-attachments/assets/74fbc426-b769-432f-b2fe-ab48b03250a4" /></td> </tr> <tr> <td align="center"><i>Suitability map</i></td> <td align="center"><i>3D view</i></td> </tr> </table>
+<table>
+  <tr>
+    <td><img width="400" alt="Final Analysis Layout" src="https://github.com/user-attachments/assets/79a2fa20-155c-4ca5-ba63-29846eafcf83" /></td>
+    <td><img width="400" alt="3D Final Analysis Layout" src="https://github.com/user-attachments/assets/74fbc426-b769-432f-b2fe-ab48b03250a4" /></td>
+  </tr>
+  <tr>
+    <td align="center"><i>Suitability map</i></td>
+    <td align="center"><i>3D view</i></td>
+  </tr>
+</table>
 
-📄 Full Report • 🗺️ Map Layout (PDF) • 🏔️ 3D Layout (PDF)
+📄 [Full Report](https://colostate-my.sharepoint.com/:w:/g/personal/c836883356_colostate_edu/IQC9MZNfwHaQQLv24uClU3D5AbAWyMh3OLqtMC0xq4g4aLM?e=hs7sjp) • 🗺️ [Map Layout (PDF)](https://github.com/user-attachments/files/27972272/Final.Analysis.Layout.pdf) • 🏔️ [3D Layout (PDF)](https://github.com/user-attachments/files/27972265/3D.Final.Analysis.Layout.pdf)
 
-🌱 NEW PROJECT NAME
+---
 
-Tools: TOOL 1 • TOOL 2 • TOOL 3
+## Contact
 
-One or two sentences on what the project is and what question it answers.
-
-What I found: One sentence on the result.
-
-<img width="500" alt="Project image" src="PASTE-IMAGE-LINK-HERE" />
-
-📄 Report • 🗺️ Map (PDF)
-
-Contact
-
-📧 camille.guillen@colostate.edu 💼 LinkedIn
+📧 [camille.guillen@colostate.edu](mailto:camille.guillen@colostate.edu)
+💼 [LinkedIn](https://www.linkedin.com/in/camille-guillen-274518359/)
 
 <div align="center"><sub>Thanks for visiting!</sub></div>
