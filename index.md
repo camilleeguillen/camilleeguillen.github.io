@@ -1,17 +1,13 @@
 <div align="center">
-
-<img width="220" alt="Camille Guillen" src="https://github.com/user-attachments/assets/db32fe34-80a6-4716-ac26-08c3fd88cd2e" />
-
-# Camille Guillen
-
-### Agricultural Economics • GIS • Environmental Data Science
-
-Student at Colorado State University
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/camille-guillen-274518359/)
-[![Email](https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white)](mailto:camille.guillen@colostate.edu)
-[![Resume](https://img.shields.io/badge/Resume-111111?style=for-the-badge&logo=readdotcv&logoColor=white)](https://github.com/user-attachments/files/27972408/CGuillen-Resume.pdf)
-
+  <img width="220" alt="Camille Guillen" src="img/portrait.jpeg" />
+  <h1>Camille Guillen</h1>
+  <h3>Agricultural Economics • GIS • Environmental Data Science</h3>
+  <p>Student at Colorado State University</p>
+  <p>
+    <a href="https://www.linkedin.com/in/camille-guillen-274518359/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="mailto:camille.guillen@colostate.edu"><img alt="Email" src="https://img.shields.io/badge/Email-38BDF8?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    <a href="img/CGuillen-Resume.pdf"><img alt="Resume" src="https://img.shields.io/badge/Resume-111111?style=for-the-badge&logo=readdotcv&logoColor=white" /></a>
+  </p>
 </div>
 
 ---
