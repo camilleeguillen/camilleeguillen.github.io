@@ -169,12 +169,6 @@ section{padding:96px 0}
 footer{background:var(--spruce-deep);color:#90AE9A;font-family:var(--display);font-size:.85rem;padding:0 0 32px}
 
 
-/* outlier toggle */
-(function(){
-  const bs=document.querySelectorAll('.toggle button'),img=document.getElementById('eqImg'),btn=document.getElementById('eqImgBtn'),note=document.getElementById('eqNote');
-  bs.forEach(b=>b.addEventListener('click',()=>{bs.forEach(x=>x.setAttribute('aria-pressed',x===b));img.src=b.dataset.img;btn.dataset.src=b.dataset.img;note.textContent=b.dataset.note}));
-})();
-
 /* lightbox */
 dialog{border:0;padding:0;background:transparent;max-width:min(1100px,94vw);max-height:92vh}
 dialog::backdrop{background:rgba(12,20,16,.86)}
@@ -468,6 +462,12 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
   q.addEventListener('input',()=>render(q.value));
   document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click',()=>{q.value=b.dataset.q;render(q.value)}));
   q.value='tomatoes';render('tomatoes');
+})();
+
+/* outlier toggle */
+(function(){
+  const bs=document.querySelectorAll('.toggle button'),img=document.getElementById('eqImg'),btn=document.getElementById('eqImgBtn'),note=document.getElementById('eqNote');
+  bs.forEach(b=>b.addEventListener('click',()=>{bs.forEach(x=>x.setAttribute('aria-pressed',x===b));img.src=b.dataset.img;btn.dataset.src=b.dataset.img;note.textContent=b.dataset.note}));
 })();
 
 /* lightbox */
