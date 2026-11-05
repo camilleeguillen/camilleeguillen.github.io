@@ -300,23 +300,13 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
   <div class="wrap">
     <div class="sec-head"><h2>More projects</h2></div>
 
-    <article class="proj">
+    <article class="proj proj-wide">
       <div>
         <div class="meta">CSU Extension &nbsp;/&nbsp; June 2026 to present</div>
         <h3>Colorado farmers market price reports</h3>
         <p>Each week I track fruit, vegetable, meat, and egg prices at farmers markets across Colorado, including Boulder, Fort Collins, Montrose, Palisade, and Pueblo. In R, I calculate the lowest, highest, and average price for each product and put together 5–10 reports that CSU Extension publishes for growers.</p>
         <p>Farmers use the reports to compare prices between markets and set fair prices for their farm stands and CSA shares.</p>
         <ul class="tools"><li>R</li><li>Excel</li><li>Data reporting</li></ul>
-        <a class="btn line" href="img/South-Pearl-Market-Report-10-18-2026.pdf">Open a sample report (PDF)</a>
-      </div>
-      <div class="lookup">
-        <h4>Look up a price</h4>
-        <p class="sub">Real data from my South Pearl Street Farmers Market report, Denver, October 18, 2026.</p>
-        <input id="q" type="search" placeholder="Try tomatoes, honey, or eggs" aria-label="Search products">
-        <div class="chips" aria-label="Quick searches">
-          <button data-q="tomatoes">Tomatoes</button><button data-q="eggs">Eggs</button><button data-q="beef">Beef</button><button data-q="mushrooms">Mushrooms</button><button data-q="honey">Honey</button>
-        </div>
-        <ul class="results" id="results" aria-live="polite"></ul>
       </div>
     </article>
 
@@ -515,37 +505,6 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
   show('fire');
 })();
 
-/* price lookup */
-(function(){
-  const P=[["Apples","No Claim","Pound",3.75,3.75,3.75],["Basil","No Claim","Bunch",3.5,4.0,3.75],["Beef, ground","No Claim","Pound",10.0,19.99,14.99],["Beef, ribeye","No Claim","Pound",34.29,34.29,34.29],["Broccoli","No Claim","Pound/lg head",5.0,5.0,5.0],["Buffalo, ground","No Claim","Pound",14.0,14.0,14.0],["Carrots","No Claim","Bunch",4.0,5.0,4.5],["Chard","No Claim","Bunch",4.0,4.0,4.0],["Chicken","No Claim","Whole",50.0,50.0,50.0],["Corn, sweet","No Claim","Each",1.0,1.0,1.0],["Cucumbers, pickling","No Claim","Each",1.0,1.0,1.0],["Cucumbers, slicing","No Claim","Each",2.0,2.0,2.0],["Eggplant, Fairytale","No Claim","Pint",4.0,4.0,4.0],["Eggplant, black beauty type","No Claim","Each",4.0,6.0,5.0],["Eggplant, other specialty","No Claim","Each",2.0,2.0,2.0],["Eggs, chicken","Claim","Dozen",12.0,12.0,12.0],["Eggs, chicken","No Claim","Dozen",8.0,10.0,9.33],["Garlic","No Claim","Each",1.25,1.25,1.25],["Ginger (2\" chunk)","No Claim","Each",1.5,1.5,1.5],["Goat meat, ground","No Claim","Pound",20.0,20.0,20.0],["Honey","No Claim","Pound",19.0,28.57,22.52],["Kale","Claim","Bunch, half bag",4.0,4.0,4.0],["Kale","No Claim","Bunch, half bag",4.0,5.0,4.5],["Lamb, chops","No Claim","Pound",10.0,10.0,10.0],["Lettuce, head","No Claim","Head",4.0,4.0,4.0],["Microgreens","Claim","Ounce",3.5,3.5,3.5],["Microgreens","No Claim","Ounce",2.0,2.0,2.0],["Mushrooms","Claim","Pound",40.0,40.0,40.0],["Mushrooms","No Claim","Pound",18.0,22.0,20.0],["Okra","No Claim","Pound",8.0,8.0,8.0],["Onions, bulbing","No Claim","Each",2.0,3.0,2.5],["Onions, green (spring)","No Claim","Bunch",3.5,3.5,3.5],["Pears","No Claim","Pound",3.75,4.0,3.88],["Peppers, chile","No Claim","Each",1.0,1.0,1.0],["Peppers, green bell","No Claim","Each",3.0,4.0,3.5],["Peppers, mini sweet","No Claim","Pound",7.0,7.0,7.0],["Pork, chop","No Claim","Pound",15.0,15.0,15.0],["Pork, ground","No Claim","Pound",10.0,10.0,10.0],["Potatoes, other","No Claim","Pound",2.0,3.0,2.5],["Potatoes, sweet","No Claim","Pound",5.0,5.0,5.0],["Produce bag","No Claim","Per bag",17.0,17.0,17.0],["Radishes","Claim","Bunch",6.0,6.0,6.0],["Radishes","No Claim","Bunch",4.0,4.5,4.25],["Raspberries/ Blackberries","No Claim","Pint",6.0,6.0,6.0],["Squash, summer","No Claim","Each",4.5,5.0,4.75],["Squash, winter","No Claim","Each",2.0,4.0,3.38],["Tomatoes, heirloom","Claim","Pound",5.75,7.0,6.38],["Tomatoes, heirloom","No Claim","Pound",6.0,6.0,6.0],["Tomatoes, other","No Claim","Pound",3.0,6.0,4.25],["Tomatoes, small (cherry, grape)","No Claim","Pint",5.0,6.0,5.67],["Turnips","No Claim","Bunch",4.0,4.5,4.25]];
-  const q=document.getElementById('q'),ul=document.getElementById('results');
-  const $=n=>'$'+n.toFixed(2);
-  const esc=s=>s.replace(/[&<>"]/g,ch=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[ch]));
-  function render(term){
-    term=term.trim().toLowerCase();
-    const base=term.replace(/(es|s)$/,'').replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
-    let m=[];
-    if(term){
-      const whole=new RegExp('\\b'+base+'(e?s)?\\b');
-      m=P.filter(p=>whole.test(p[0].toLowerCase()));
-      if(!m.length){const start=new RegExp('\\b'+term.replace(/[.*+?^${}()|[\]\\]/g,'\\$&'));m=P.filter(p=>start.test(p[0].toLowerCase()))}
-      if(!m.length)m=P.filter(p=>p[0].toLowerCase().includes(base||term));
-    }
-    if(!term){ul.innerHTML='<li><span class="empty">Type a product or pick one above to see its price range at the market.</span></li>';return}
-    if(!m.length){ul.innerHTML='<li><span class="empty">No match for that product in this report. Try a vegetable, meat, or eggs.</span></li>';return}
-    const max=Math.max(...m.map(p=>p[4]))*1.08;
-    ul.innerHTML=m.map(p=>{
-      const lo=p[3]/max*100,hi=Math.max(p[4]/max*100,lo+1.5),av=p[5]/max*100;
-      const label=p[1]==='Claim'?' (certified/claim)':'';
-      const pr=p[3]===p[4]?$(p[3]):$(p[3])+' to '+$(p[4]);
-      return '<li><div><div class="name">'+esc(p[0])+'</div><div class="unit">per '+esc(p[2].toLowerCase())+label+'</div></div>'+
-        '<div><div class="price">'+pr+'</div><div class="unit" style="text-align:right">avg '+$(p[5])+'</div></div>'+
-        '<div class="range" aria-hidden="true"><i style="left:'+lo+'%;width:'+(hi-lo)+'%"></i><b style="left:'+av+'%"></b></div></li>'}).join('');
-  }
-  q.addEventListener('input',()=>render(q.value));
-  document.querySelectorAll('.chips button').forEach(b=>b.addEventListener('click',()=>{q.value=b.dataset.q;render(q.value)}));
-  q.value='tomatoes';render('tomatoes');
-})();
 
 /* outlier toggle */
 (function(){

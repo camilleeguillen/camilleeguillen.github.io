@@ -75,10 +75,6 @@ I manage weekly price data from farmers markets across Colorado, including Bould
 
 **Why it matters:** Local farmers use these reports to compare prices across markets and set fair prices for their farm stands and CSA shares.
 
-<img width="500" alt="South Pearl Street Farmers Market price report" src="img/farmers-market-report.png" />
-
-📄 [Sample Report: South Pearl Street Farmers Market, Oct 18, 2026 (PDF)](img/South-Pearl-Market-Report-10-18-2026.pdf)
-
 ---
 
 ### 🥔 Colorado Potato Suitability Analysis
