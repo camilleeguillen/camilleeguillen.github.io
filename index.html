@@ -180,6 +180,10 @@ section{padding:96px 0}
 .co-map .co-cap{font-size:12px;fill:var(--ink-soft);font-style:italic}
 .co-dot{fill:var(--wheat);stroke:var(--spruce-deep);stroke-width:2}
 .co-fig figcaption{font-size:.92rem;color:var(--ink-soft);margin-top:10px}
+.team-photo{margin:4px 0 20px}
+.team-photo button{display:block;width:100%;padding:0;border:0;border-radius:14px;overflow:hidden;cursor:zoom-in;background:none}
+.team-photo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.team-photo figcaption{font-family:var(--display);font-size:.88rem;color:var(--ink-soft);margin-top:8px}
 /* about */
 .about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px}
 @media (max-width:820px){.about-grid{grid-template-columns:1fr}}
@@ -380,8 +384,12 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
       <div>
         <div class="meta">Applied research &nbsp;/&nbsp; Equitable Agriculture and Environmental Management Program &nbsp;/&nbsp; Santa Barbara &nbsp;/&nbsp; July 2025</div>
         <h3>Does heavy traffic mean more polluted water?</h3>
-        <p>Tire wear sheds tiny particles that can wash into streams and lakes. In a two-week intensive program, my team tested whether Southern California census tracts with more traffic also have more impaired water bodies, using CalEnviroScreen 4.0 environmental data for more than 1,600 tracts.</p>
+        <p>Tire wear sheds tiny particles that can wash into streams and lakes. In a two-week intensive program, my teammates Eden Burnett, Annabel Ivey, and I tested whether Southern California census tracts with more traffic also have more impaired water bodies, using CalEnviroScreen 4.0 environmental data for more than 1,600 tracts.</p>
         <p>In R, we ran an ANOVA and a regression that controlled for county. Traffic had a statistically significant but very small effect, while differences between counties explained far more of the variation. We also found that a single extreme tract in San Diego made the relationship look much stronger than it is. We presented policy-focused recommendations to faculty and peers.</p>
+        <figure class="team-photo">
+          <button data-src="img/eqag-team-presenting.jpg" data-cap="Presenting our final project at UC Santa Barbara, July 2025"><img src="img/eqag-team-presenting.jpg" alt="Camille Guillen with teammates Eden Burnett and Annabel Ivey beside their slide, Examining the Relationship Between Traffic Density and Water Pollution" loading="lazy"></button>
+          <figcaption>Presenting our final project at UC Santa Barbara, July 2025</figcaption>
+        </figure>
         <ul class="tools"><li>R</li><li>ggplot2</li><li>Regression &amp; ANOVA</li><li>ArcGIS</li></ul>
       </div>
       <div class="lookup">

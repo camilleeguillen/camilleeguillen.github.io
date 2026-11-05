@@ -92,7 +92,11 @@ Identified the most suitable land for potato production in Rio Grande County, Co
 
 **Tools:** R • ggplot2 • Regression & ANOVA • ArcGIS
 
-In a two-week intensive program, my team tested whether Southern California census tracts with more traffic also have more impaired water bodies, since tire wear sheds particles that can wash into streams and lakes. We used CalEnviroScreen 4.0 data for more than 1,600 census tracts.
+In a two-week intensive program, my teammates Eden Burnett, Annabel Ivey, and I tested whether Southern California census tracts with more traffic also have more impaired water bodies, since tire wear sheds particles that can wash into streams and lakes. We used CalEnviroScreen 4.0 data for more than 1,600 census tracts.
+
+<img width="600" alt="Presenting our final project at UC Santa Barbara" src="img/eqag-team-presenting.jpg" />
+
+*Presenting our final project at UC Santa Barbara, July 2025*
 
 **What we found:**
 - 🚦 Traffic had a statistically significant but very small effect on water pollution once we controlled for county.
