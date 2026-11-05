@@ -50,6 +50,8 @@ Working with teammates Xinran Zhou and Malia Goldstien in the competitive ESIIL 
 
 🎤 **This research will be presented at the AGU Fall Meeting in December 2026.**
 
+📄 [Read our AGU abstract: *Two Decades of Forest Loss Across Colorado's Front Range: Patterns and Drivers Along an Elevational Gradient*](https://studio.m-anage.com/agu/agu26/meetingapp.cgi/Paper/2088802)
+
 <img width="800" alt="NLCD land cover in 2001 and 2021, land cover change, and elevation along the Front Range" src="img/esiil-land-cover-maps.png" />
 
 <table>
