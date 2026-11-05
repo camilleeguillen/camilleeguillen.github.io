@@ -31,7 +31,7 @@ I'm a Colorado State University student majoring in **Agricultural Economics** w
 
 ---
 
-## Projects
+## Research & Projects
 
 ### 🌲 Forest Loss & Urban Growth Along Colorado's Front Range
 
@@ -88,7 +88,7 @@ Identified the most suitable land for potato production in Rio Grande County, Co
 
 ### 🚗 Traffic and Water Pollution in Southern California
 
-**Equitable Agriculture and Environmental Management Program • Santa Barbara • July 2025**
+**Applied Research • Equitable Agriculture and Environmental Management Program • Santa Barbara • July 2025**
 
 **Tools:** R • ggplot2 • Regression & ANOVA • ArcGIS
 
