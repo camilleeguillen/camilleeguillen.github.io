@@ -75,6 +75,8 @@ I manage weekly price data from farmers markets across Colorado, including Bould
 
 **Why it matters:** Local farmers use these reports to compare prices across markets and set fair prices for their farm stands and CSA shares.
 
+📄 [View the published price reports on the CSU Food Systems website](https://foodsystems.colostate.edu/market-prices-and-information/)
+
 ---
 
 ### 🥔 Colorado Potato Suitability Analysis
