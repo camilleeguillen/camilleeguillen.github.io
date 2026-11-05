@@ -170,6 +170,16 @@ section{padding:96px 0}
 .lab-grid img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#F7F8F5;padding:8px}
 .lab-grid.g1 img{aspect-ratio:auto}
 .lab-grid span{display:block;padding:8px 12px;font-family:var(--display);font-size:.85rem;color:var(--ink-soft)}
+.co-fig{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:18px;padding:18px}
+.co-map{width:100%;height:auto;display:block}
+.co-state{fill:#EEF3EA}
+.co-mtn{fill:#D3E0CE}
+.co-outline{fill:none;stroke:var(--spruce);stroke-width:2}
+.co-lead{stroke:var(--ink-soft);stroke-width:1}
+.co-map text{font-family:var(--display);font-size:15px;fill:var(--ink)}
+.co-map .co-cap{font-size:12px;fill:var(--ink-soft);font-style:italic}
+.co-dot{fill:var(--wheat);stroke:var(--spruce-deep);stroke-width:2}
+.co-fig figcaption{font-size:.92rem;color:var(--ink-soft);margin-top:10px}
 /* about */
 .about-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:56px}
 @media (max-width:820px){.about-grid{grid-template-columns:1fr}}
@@ -386,7 +396,7 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
       </div>
     </article>
 
-    <article class="proj proj-wide">
+    <article class="proj">
       <div>
         <div class="meta">CSU Extension &nbsp;/&nbsp; June 2026 to present</div>
         <h3>Colorado farmers market price reports</h3>
@@ -395,6 +405,37 @@ dialog .close{position:fixed;top:16px;right:20px;font-family:var(--display);font
         <ul class="tools"><li>R</li><li>Excel</li><li>Data reporting</li></ul>
         <a class="btn line" href="https://foodsystems.colostate.edu/market-prices-and-information/">View the published price reports</a>
       </div>
+      <figure class="co-fig">
+        <svg class="co-map" viewBox="0 0 528 401" role="img" aria-labelledby="coTitle coDesc">
+<title id="coTitle">Colorado farmers markets I track</title><desc id="coDesc">Map of Colorado with markets in Fort Collins, Greeley, Longmont, Boulder, Denver, Pueblo, Palisade, and Montrose.</desc>
+<rect x="24" y="24" width="480.0" height="352.9" rx="4" class="co-state"/>
+<path class="co-mtn" d="M24.0 24.0 L284.6 24.0 L279.8 76.9 L275.7 121.1 L288.0 165.2 L305.1 209.3 L294.9 262.2 L301.7 324.0 L308.6 376.9 L24.0 376.9 Z"/>
+<rect x="24" y="24" width="480.0" height="352.9" rx="4" class="co-outline"/>
+<line class="co-lead" x1="296.0" y1="60.6" x2="371.1" y2="42.1"/>
+<text x="377.1" y="46.1" text-anchor="start">Fort Collins</text>
+<line class="co-lead" x1="321.7" y1="74.9" x2="371.1" y2="71.2"/>
+<text x="377.1" y="75.2" text-anchor="start">Greeley</text>
+<line class="co-lead" x1="294.7" y1="97.5" x2="371.1" y2="100.3"/>
+<text x="377.1" y="104.3" text-anchor="start">Longmont</text>
+<line class="co-lead" x1="283.1" y1="110.9" x2="215.1" y2="95.0"/>
+<text x="209.1" y="99.0" text-anchor="end">Boulder</text>
+<line class="co-lead" x1="303.1" y1="139.6" x2="371.1" y2="135.6"/>
+<text x="377.1" y="139.6" text-anchor="start">Denver</text>
+<text x="338.5" y="271.3">Pueblo</text>
+<text x="82.0" y="195.8">Palisade</text>
+<text x="114.5" y="251.5">Montrose</text>
+<circle class="co-dot" cx="296.0" cy="60.6" r="6"><title>Fort Collins</title></circle>
+<circle class="co-dot" cx="321.7" cy="74.9" r="6"><title>Greeley</title></circle>
+<circle class="co-dot" cx="294.7" cy="97.5" r="6"><title>Longmont</title></circle>
+<circle class="co-dot" cx="283.1" cy="110.9" r="6"><title>Boulder</title></circle>
+<circle class="co-dot" cx="303.1" cy="139.6" r="6"><title>Denver</title></circle>
+<circle class="co-dot" cx="328.5" cy="266.3" r="6"><title>Pueblo</title></circle>
+<circle class="co-dot" cx="72.0" cy="190.8" r="6"><title>Palisade</title></circle>
+<circle class="co-dot" cx="104.5" cy="246.5" r="6"><title>Montrose</title></circle>
+<text class="co-cap" x="48.0" y="48.7">Rocky Mountains</text><text class="co-cap" x="373.7" y="354.9">Eastern Plains</text>
+</svg>
+        <figcaption>Some of the Colorado farmers markets whose prices I track each week.</figcaption>
+      </figure>
     </article>
   </div>
 </section>
