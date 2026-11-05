@@ -65,20 +65,6 @@ Working with teammates Xinran Zhou and Malia Goldstien in the competitive ESIIL 
 
 ---
 
-### 🥕 Colorado Farmers Market Price Reports
-
-**CSU Extension • CSU Food Systems • June 2026–Present**
-
-**Tools:** R • Excel • Data Reporting
-
-I manage weekly price data from farmers markets across Colorado, including Boulder, Fort Collins, Montrose, Palisade, and Pueblo, tracking prices for fruit, vegetables, meat, and eggs. Using R, I calculate the lowest, highest, and average price for each product and compile 5–10 reports each week that are published on the CSU Extension website.
-
-**Why it matters:** Local farmers use these reports to compare prices across markets and set fair prices for their farm stands and CSA shares.
-
-📄 [View the published price reports on the CSU Food Systems website](https://foodsystems.colostate.edu/market-prices-and-information/)
-
----
-
 ### 🥔 Colorado Potato Suitability Analysis
 
 **Tools:** ArcGIS Pro • Raster Analysis • Weighted Overlay
@@ -123,6 +109,20 @@ In a two-week intensive program, my team tested whether Southern California cens
     <td align="center"><i>With the San Diego outlier</i></td>
   </tr>
 </table>
+
+---
+
+### 🥕 Colorado Farmers Market Price Reports
+
+**CSU Extension • CSU Food Systems • June 2026–Present**
+
+**Tools:** R • Excel • Data Reporting
+
+I manage weekly price data from farmers markets across Colorado, including Boulder, Fort Collins, Montrose, Palisade, and Pueblo, tracking prices for fruit, vegetables, meat, and eggs. Using R, I calculate the lowest, highest, and average price for each product and compile 5–10 reports each week that are published on the CSU Extension website.
+
+**Why it matters:** Local farmers use these reports to compare prices across markets and set fair prices for their farm stands and CSA shares.
+
+📄 [View the published price reports on the CSU Food Systems website](https://foodsystems.colostate.edu/market-prices-and-information/)
 
 ---
 
